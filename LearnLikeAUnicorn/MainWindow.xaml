@@ -5,8 +5,25 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LearnLikeAUnicorn"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" WindowState="Maximized">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height=".33*"/>
+            <RowDefinition Height=".33*"/>
+            <RowDefinition Height=".33*"/>
+        </Grid.RowDefinitions>
+        <Image Source="C:\Users\drewc\Pictures\MollyBackground.bmp" Stretch="Fill" Grid.ColumnSpan="5" Grid.RowSpan="5"/>
+        <Button x:Name="mathicorn" Height="150" Width="150" Background="Transparent" BorderThickness="0" Grid.Row="1" Grid.Column="3" Grid.ColumnSpan="2" Grid.RowSpan="4" Margin="0,75,0,20" Click="GoToMathGame">
+            <Image Source="C:\Users\drewc\Pictures\Unicorn.png"/>
+        </Button>
     </Grid>
 </Window>

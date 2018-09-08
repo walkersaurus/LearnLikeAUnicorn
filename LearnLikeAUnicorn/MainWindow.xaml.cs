@@ -24,5 +24,19 @@ namespace LearnLikeAUnicorn
         {
             InitializeComponent();
         }
+
+        private void GoToMathGame(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                MathGame mg = new MathGame();
+                mg.Show();
+                this.Close();
+            }
+            catch
+            {
+                MessageBox.Show("Unable to go to Math Game");
+            }
+        }
     }
 }
