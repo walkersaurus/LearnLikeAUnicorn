@@ -38,5 +38,12 @@ namespace LearnLikeAUnicorn
                 MessageBox.Show("Unable to go to Math Game");
             }
         }
+
+        private void GoToLetterGame(object sender, RoutedEventArgs e)
+        {
+            DinoLetters dL = new DinoLetters();
+            dL.Show();
+            this.Close();
+        }
     }
 }

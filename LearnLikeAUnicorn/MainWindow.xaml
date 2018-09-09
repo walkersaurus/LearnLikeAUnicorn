@@ -25,5 +25,9 @@
         <Button x:Name="mathicorn" Height="150" Width="150" Background="Transparent" BorderThickness="0" Grid.Row="1" Grid.Column="3" Grid.ColumnSpan="2" Grid.RowSpan="4" Margin="0,75,0,20" Click="GoToMathGame">
             <Image Source="C:\Users\drewc\Pictures\Unicorn.png"/>
         </Button>
+        <Button x:Name="lettersaurus" Height="150" Width="150" Background="Transparent" BorderThickness="0" Grid.Row="1" Grid.Column="0" Grid.RowSpan="2" Margin="0,20,0,0" Click="GoToLetterGame">
+            <!--Grid.ColumnSpan="2" Grid.RowSpan="4" Margin="0,75,0,20" Click="GoToMathGame"-->
+            <Image Source="C:\Users\drewc\Pictures\Plessy.png"/>
+        </Button>
     </Grid>
 </Window>

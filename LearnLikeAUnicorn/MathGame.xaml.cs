@@ -81,14 +81,14 @@ namespace LearnLikeAUnicorn
                     //Reaction to correct answer: "Ding!", add a point, Visual response
                     MessageBox.Show("Correct!");
                     points++;
-                    NewProb();
                 }
                 else
                 {
                     //Reaction to incorrect answer: "Buzz!", Lose a chance, visual response; end game if 0 chances remaining
                     MessageBox.Show("Incorrect!");
-                    NewProb();
                 }
+
+                NewProb();
             }
         }
     }

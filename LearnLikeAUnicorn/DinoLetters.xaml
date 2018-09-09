@@ -1,0 +1,30 @@
+﻿<Window x:Class="LearnLikeAUnicorn.DinoLetters"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LearnLikeAUnicorn"
+        mc:Ignorable="d"
+        Title="DinoLetters" WindowState="Maximized">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height=".5*"/>
+            <RowDefinition Height=".5*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <Image Source="C:\Users\drewc\Pictures\dinoBackground.bmp" Stretch="Fill" Grid.Row="0" Grid.RowSpan="4" Grid.Column="0" Grid.ColumnSpan="3"/>
+        <Viewbox Stretch="Uniform" Grid.Column="1" Grid.Row="0" Grid.RowSpan="2">
+            <Label x:Name="letter" Content="O" Foreground="#014f2D"/>
+            
+        </Viewbox>
+        <Viewbox Stretch="Uniform" Grid.Column="1" Grid.Row="2">
+            <TextBox x:Name="answer" Text="Text" Focusable="True" CaretBrush="Transparent" Foreground="White" BorderThickness="0" Background="Transparent" KeyDown="GetAnswer"/>
+        </Viewbox>
+    </Grid>
+</Window>

@@ -7,8 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnLikeAUnicorn", "LearnL
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{9FF9FD79-B822-4108-BFA3-525B2252AAD1}"
 	ProjectSection(SolutionItems) = preProject
+		..\..\..\Pictures\dinoBackground.bmp = ..\..\..\Pictures\dinoBackground.bmp
 		..\..\..\Pictures\MathBackground.bmp = ..\..\..\Pictures\MathBackground.bmp
 		..\..\..\Pictures\MollyBackground.bmp = ..\..\..\Pictures\MollyBackground.bmp
+		..\..\..\Pictures\Plessy.png = ..\..\..\Pictures\Plessy.png
 		..\..\..\Pictures\Unicorn.png = ..\..\..\Pictures\Unicorn.png
 	EndProjectSection
 EndProject
